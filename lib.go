@@ -1,5 +1,6 @@
 package apidemo
 
 func Answer() int {
-	return 42
+	println("Returning", 43)
+	return 43
 }

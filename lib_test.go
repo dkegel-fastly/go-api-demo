@@ -7,7 +7,7 @@ import (
 )
 
 func TestAPI(t *testing.T) {
-	if apidemo.Answer() != 42 {
-		t.Fatal("wrong answer")
+	if apidemo.Answer() != 43 {
+		t.Fatal("wrong answer, expected 43")
 	}
 }
